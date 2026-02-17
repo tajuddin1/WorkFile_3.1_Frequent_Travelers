@@ -19,7 +19,7 @@ ul {
   margin: 0 auto;
   background-image: linear-gradient(rgb(0 0 0 / 34%), rgb(0 0 0 / 10%), transparent), url(img/bg-image.jpg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-size: cover;
   min-height: 100vh;
   overflow: hidden;
@@ -399,7 +399,7 @@ ul {
   }
 
   .hero-text {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .hero-text img {
@@ -515,6 +515,11 @@ ul {
 
   .gold-cta h2 span.space-left {
     margin-left: 0;
+  }
+
+  .hero-text img {
+    margin-top: 0;
+    width: 20px;
   }
 
 }
